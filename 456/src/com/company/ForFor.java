@@ -6,6 +6,7 @@ public class ForFor {
             for (int j = 0; j < 60; j++) {
                 System.out.println(i+"时"+j+"分\t");
             }
+            System.out.println(" ");
         }
     }
 }
