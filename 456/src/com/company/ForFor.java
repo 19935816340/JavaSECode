@@ -1,12 +1,17 @@
 package com.company;
+import java.util.Random;
 
 public class ForFor {
     public static void main(String[] args) {
-        for (int i = 0; i < 24; i++) {
-            for (int j = 0; j < 60; j++) {
-                System.out.println(i+"时"+j+"分\t");
-            }
-            System.out.println(" ");
+        Random random = new Random();
+        for (int i = 0; i < 100; i++) {
+            int num = random.nextInt(10);
+            System.out.println(num);
+        }
+        double aDouble = random.nextDouble();
+        System.out.println(aDouble);
+        boolean b = random.nextBoolean();
+        System.out.println(b);
+
         }
     }
-}
